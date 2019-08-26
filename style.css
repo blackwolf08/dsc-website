@@ -233,3 +233,35 @@ body {
   padding: 0 20px 0 20px;
   text-align: center;
 }
+
+.tech {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tech-img {
+  height: calc(100vh / 5);
+  width: 300px;
+}
+
+.tech-row {
+  padding: 10px;
+}
+
+.tag {
+  z-index: 2;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tag-p {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #4444b6;
+}
