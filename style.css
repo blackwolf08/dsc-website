@@ -13,6 +13,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+body {
+  display: none;
+}
+
 .bg {
   position: absolute;
   height: 100%;
