@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url();
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar-logo {
+  height: 100px;
+  width: 100px;
+  background-image: url('./logo.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar-right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.jiit-logo {
+  background-image: url('./Logo-jiit.png');
+  height: 100%;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.landing {
+  height: calc(100vh - 100px);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.landing-img {
+  height: 30%;
+  width: 70%;
+  z-index: -2;
+}
+
+.spot {
+  position: absolute;
+  height: 200px;
+  /* filter: opacity(0.5); */
+  width: 200px;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 100px;
+  z-index: -1;
+  animation: spot_1 15s linear infinite forwards;
+  transform: translate(0, 0);
+}
+
+@keyframes spot_1 {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(30px, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes spot_2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-30px, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes spot_3 {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 30px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes spot_4 {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, -30px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.red {
+  background-color: #eb4039;
+  top: 30px;
+  left: -100px;
+  animation-name: spot_1;
+}
+
+.yellow {
+  top: -100px;
+  background-color: #f1bb0e;
+  right: -100px;
+  animation-name: spot_2;
+}
+
+.blue {
+  background-color: #4444b6;
+  bottom: -100px;
+  left: -40px;
+  animation-name: spot_3;
+}
+
+.green {
+  background-color: #0f9d53;
+  right: -100px;
+  bottom: -70px;
+  animation-name: spot_4;
+}
+
+.about {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.landing-text {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.about-title {
+  font-size: 1.5rem;
+  color: #4444b6;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content {
+  width: 100%;
+  padding: 0 10px 0 10px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.collab-img {
+  height: 200px;
+  width: 300px;
+}
+
+.collab-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-title {
+  text-align: center;
+  width: 100%;
+  height: 50px;
+}
+
+.landing-content {
+  color: #999;
+  width: 100%;
+  padding: 0 20px 0 20px;
+  text-align: center;
+}
