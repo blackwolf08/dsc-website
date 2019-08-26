@@ -6,15 +6,15 @@ window.onload = function() {
   var myEvents = [
     {
       date: '05:00 pm',
-      content: 'Lorem ipsum dolor sit amet'
+      content: 'Introduction'
     },
     {
       date: '06:00 pm',
-      content: 'Lorem ipsum dolor sit amet'
+      content: 'Project presentation'
     },
     {
       date: '7:00 pm',
-      content: 'Lorem ipsum dolor sit amet'
+      content: 'Swags distribution!'
     }
   ];
 
