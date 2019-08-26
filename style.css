@@ -274,3 +274,18 @@ body {
   align-items: center;
   font-size: 1.5rem;
 }
+
+.qr-code-title {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: #eee;
+}
+
+.qr-code-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
