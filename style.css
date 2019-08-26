@@ -95,7 +95,7 @@ body {
   border-bottom-right-radius: 50px;
   border-bottom-left-radius: 100px;
   z-index: -1;
-  animation: spot_1 15s linear infinite forwards;
+  /* animation: spot_1 15s linear infinite forwards; */
   transform: translate(0, 0);
 }
 
