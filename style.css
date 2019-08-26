@@ -265,3 +265,12 @@ body {
   margin-top: 20px;
   color: #4444b6;
 }
+
+.title-timeline {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
