@@ -294,3 +294,56 @@ body {
   justify-content: space-around;
   flex-direction: column;
 }
+
+body {
+  max-width: 1500px;
+}
+
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.date {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+
+.coord-img {
+  height: 300px;
+  width: 200px;
+}
+
+.autoplay {
+  width: 700px;
+  height: 300px;
+  width: 70vw;
+  height: 200px;
+  max-width: 300px;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 600px) {
+  .landing-img {
+    height: 600px;
+  }
+  body {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  }
+  html,
+  body {
+    height: 600vh;
+  }
+  .landing-title {
+    margin-top: -50px;
+    font-size: 1.6rem;
+  }
+}

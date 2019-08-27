@@ -9,12 +9,28 @@ window.onload = function() {
       content: 'Introduction'
     },
     {
-      date: '06:00 pm',
+      date: '05:15 pm',
       content: 'Project presentation'
     },
     {
-      date: '7:00 pm',
-      content: 'Swags distribution!'
+      date: '05:40 pm',
+      content: 'What are the new tech stacks?'
+    },
+    {
+      date: '06:00 pm',
+      content: 'QUIZ! and Schwags!'
+    },
+    {
+      date: '06:30 pm',
+      content: 'Difference between Development and Competitive Programming'
+    },
+    {
+      date: '06:40 pm',
+      content: "Faculty Advisor DSC - Mahendra Gurve Sir's Speech "
+    },
+    {
+      date: '06:50 pm',
+      content: 'Coordinator Introduction'
     }
   ];
 
@@ -47,5 +63,12 @@ window.onload = function() {
   $('#my-timeline').roadmap(myEvents, {
     // auto, horizontal, vertical
     orientation: 'auto'
+  });
+  $('.autoplay').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    infinite: true
   });
 };
